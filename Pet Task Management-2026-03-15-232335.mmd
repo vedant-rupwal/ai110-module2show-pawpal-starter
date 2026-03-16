@@ -1,0 +1,48 @@
+classDiagram
+    class Owner {
+        +String name
+        +float available_hours
+        +string ID
+        +List~Pet~ pets
+        +List~Task~ tasks
+        +add_pet(pet: Pet)
+        +edit_pet(pet_name: String, updates)
+        +add_task(task: Task)
+        +edit_task(task_title: String, updates)
+        +set_availability(hours: float)
+        +see_schedule() Schedule
+    }
+
+    class Pet {
+        +String name
+        +String species
+        +string ID
+        +string Owner ID
+    }
+
+    class Task {
+        +String title
+        +int duration_minutes
+        +String priority
+        +Pet pet
+    }
+
+    class Schedule {
+        +Owner owner
+        +List~Task~ tasks
+        +int total_duration
+        +add_task(task: Task)
+        +get_total_duration() int
+    }
+
+    class Scheduler {
+        +generate_schedule(owner: Owner) Schedule
+    }
+
+    Owner "1" --> "*" Pet : has
+    Owner "1" --> "*" Task : manages
+    Task "*" --> "1" Pet : associated with
+    Scheduler ..> Owner : uses
+    Scheduler ..> Schedule : produces
+    Schedule "*" --> "1" Owner : belongs to
+    Schedule "*" --> "*" Task : contains

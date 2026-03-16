@@ -1,0 +1,145 @@
+{
+  "name": "Jordan",
+  "available_hours": 4.0,
+  "ID": "o1",
+  "pets": [
+    {
+      "name": "Mochi",
+      "species": "rabbit",
+      "ID": "p1",
+      "owner_id": "o1",
+      "max_care_minutes": null,
+      "tasks": [
+        {
+          "title": "Morning walk",
+          "duration_minutes": 20,
+          "priority": "high",
+          "description": "",
+          "frequency": "daily",
+          "completed": true,
+          "start_time": "",
+          "due_date": "2026-03-15"
+        },
+        {
+          "title": "Shower",
+          "duration_minutes": 30,
+          "priority": "low",
+          "description": "",
+          "frequency": "as_needed",
+          "completed": true,
+          "start_time": "9",
+          "due_date": "2026-03-15"
+        },
+        {
+          "title": "Morning walk",
+          "duration_minutes": 20,
+          "priority": "high",
+          "description": "",
+          "frequency": "daily",
+          "completed": true,
+          "start_time": "",
+          "due_date": "2026-03-16"
+        },
+        {
+          "title": "Morning walk",
+          "duration_minutes": 20,
+          "priority": "high",
+          "description": "",
+          "frequency": "daily",
+          "completed": true,
+          "start_time": "",
+          "due_date": "2026-03-17"
+        },
+        {
+          "title": "Morning walk",
+          "duration_minutes": 20,
+          "priority": "high",
+          "description": "",
+          "frequency": "daily",
+          "completed": true,
+          "start_time": "",
+          "due_date": "2026-03-18"
+        },
+        {
+          "title": "Morning walk",
+          "duration_minutes": 20,
+          "priority": "high",
+          "description": "",
+          "frequency": "daily",
+          "completed": true,
+          "start_time": "",
+          "due_date": "2026-03-19"
+        },
+        {
+          "title": "Morning walk",
+          "duration_minutes": 20,
+          "priority": "high",
+          "description": "",
+          "frequency": "daily",
+          "completed": true,
+          "start_time": "",
+          "due_date": "2026-03-20"
+        },
+        {
+          "title": "Morning walk",
+          "duration_minutes": 20,
+          "priority": "high",
+          "description": "",
+          "frequency": "daily",
+          "completed": true,
+          "start_time": "",
+          "due_date": "2026-03-21"
+        },
+        {
+          "title": "Morning walk",
+          "duration_minutes": 20,
+          "priority": "high",
+          "description": "",
+          "frequency": "daily",
+          "completed": true,
+          "start_time": "",
+          "due_date": "2026-03-22"
+        },
+        {
+          "title": "Morning walk",
+          "duration_minutes": 20,
+          "priority": "high",
+          "description": "",
+          "frequency": "daily",
+          "completed": false,
+          "start_time": "",
+          "due_date": "2026-03-23"
+        }
+      ]
+    },
+    {
+      "name": "Cookie",
+      "species": "cat",
+      "ID": "p2",
+      "owner_id": "o1",
+      "max_care_minutes": null,
+      "tasks": [
+        {
+          "title": "Shower",
+          "duration_minutes": 100,
+          "priority": "low",
+          "description": "",
+          "frequency": "weekly",
+          "completed": true,
+          "start_time": "10",
+          "due_date": "2026-03-15"
+        },
+        {
+          "title": "Shower",
+          "duration_minutes": 100,
+          "priority": "low",
+          "description": "",
+          "frequency": "weekly",
+          "completed": false,
+          "start_time": "10",
+          "due_date": "2026-03-22"
+        }
+      ]
+    }
+  ]
+}
